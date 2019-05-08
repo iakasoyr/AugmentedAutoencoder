@@ -73,6 +73,12 @@ pip install --user .
 export AE_WORKSPACE_PATH=/path/to/autoencoder_ws  
 ```
 
+```
+git clone <this repogitory>
+cd AugmentedAutoencoder
+python setup.py install
+```
+
 *3. Create Workspace, Init Workspace (if installed locally, make sure .local/bin/ is in your PATH)*
 ```bash
 mkdir $AE_WORKSPACE_PATH
