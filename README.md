@@ -51,6 +51,7 @@ sudo apt-get install libassimp-dev
 
 Tensorflow >= 1.6  
 OpenCV >= 3.1
+numpy == 1.16.1
 
 ```bash
 pip install --user --pre --upgrade PyOpenGL PyOpenGL_accelerate
